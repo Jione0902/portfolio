@@ -1,0 +1,143 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.6/dist/web/static/pretendard.css");
+
+* {
+  font-family: "Pretendard";
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+::selection {
+  background-color: #94c3ff;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 40px 100px;
+  z-index: 10000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.5s;
+}
+
+header.sticky {
+  background: #fff;
+  padding: 10px 100px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+}
+
+header .logo {
+  color: #fff;
+  font-weight: 700;
+  font-size: 2em;
+  font-size: 2em;
+  text-decoration: none;
+}
+
+header.sticky .logo {
+  color: #111;
+}
+
+header.sticky .nav li a {
+  color: #111;
+}
+
+header.sticky .nav li a {
+  color: #111;
+}
+
+header.sticky .nav li a:hover {
+  color: #2f80ed;
+}
+
+header .logo span {
+  color: #2f80ed;
+}
+
+header .nav {
+  position: relative;
+  display: flex;
+}
+
+header .nav li {
+  list-style: none;
+  margin-left: 30px;
+}
+
+header .nav li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 300;
+}
+
+.more-profile-page {
+  background: linear-gradient(to right, #6dacff, #2f80ed);
+  height: 800px;
+}
+
+.more-profile-content {
+  width: 80vw;
+  margin: 0 auto;
+}
+
+.flex-content {
+  display: flex;
+}
+
+.profiles {
+  align-items: center;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.profile:first-child {
+  margin-bottom: 3rem;
+}
+
+.profile {
+  width: 600px;
+}
+
+.main-title {
+  font-size: 3.6rem;
+  line-height: 1.15;
+  font-weight: 700;
+  color: white;
+  padding-top: 5rem;
+}
+
+.sub-text {
+  font-weight: 700;
+  font-size: 1.5rem;
+  padding-bottom: 1rem;
+  padding-bottom: 3rem;
+  color: white;
+}
+
+.radius {
+  border-radius: 50%;
+  width: 300px;
+}
+
+.name {
+  font-weight: 800;
+  font-size: 2rem;
+  color: wheat;
+}
+
+.profile-detail {
+  font-size: 1.3rem;
+  color: wheat;
+}
+
+.profile-list {
+  font-weight: 300;
+  font-size: 1.3rem;
+  color: white;
+}
